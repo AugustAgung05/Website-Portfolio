@@ -3,7 +3,7 @@ let tampilan = document.getElementById("tampilan");
 //Mengambil target gambar dimana image tersimpan beserta turunannya 
 let gambar = document.getElementById("gambar").children;
 //Inisiasi nomor default
-let nomor = -1;
+let nomor = 0;
 
 //Membuat fungsi saat gambar dipencet akan ditampilkan ditarget tampilan serta mengubah nomor sesuai class name yang ada pada masing-maisng image
 function ganti_gambar(gambar){
