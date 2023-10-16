@@ -220,11 +220,15 @@ aside{
         display: flex;
         flex-flow: column nowrap;
     }
+    nav a{
+        margin: 10px;
+    }
     #view img{
         width: 100%;
     }
     .content-header{
         height: auto;
+        padding: 10px;
     }
     #gambar{
         width: 100%;
@@ -234,5 +238,12 @@ aside{
     }
     #gambar img{
         width: 100px;
+    }
+    #main{
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .about{
+        position: static;
     }
 }
